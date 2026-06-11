@@ -1,0 +1,15 @@
+package Array;
+
+public class ArrayName {
+public static void main(String[] args) {
+	String[] name = {"yuva","raj","praveen","kalish","monaj"};
+	System.out.println("first name:"+name[0]);
+	name[1]="yuvaraj";
+	System.out.println("modified name:"+name[1]);
+	System.out.println("num of names:"+name.length);
+	System.out.println("all names:");
+	for(int i = 0;i<name.length;i++) {
+		System.out.println(name[i]);
+	}
+}
+}
