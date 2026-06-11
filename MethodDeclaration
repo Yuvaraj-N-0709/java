@@ -1,0 +1,20 @@
+package YUVA;
+
+public class Main {
+	public static void main (String[]args) {
+		double d1 = 45.89;
+		int d2 =(int)d1;
+		System.out.println(d2);
+		float d3 = 89.78f;
+		int d4 = (int)d3;
+		System.out.println(d4);
+		double d5 = 78.56;
+		char d6 = (char)d5;
+		System.out.println(d6);
+		double d7 = 78.56;
+		long d8 = (long)d7;
+		System.out.println(d8);
+		
+	}
+
+}
