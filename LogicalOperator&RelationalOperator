@@ -1,0 +1,28 @@
+public class Yuvaraj {
+	public static void main(String[] args) {
+		System.out.println("AND");
+		int a=25;int b=12; int c= 4;
+		boolean res1 = a<b && b<c;
+		System.out.println(res1);
+		boolean res2 = a>b && b<c;
+		System.out.println(res2);
+		boolean res3 = a>b && b>c;
+		System.out.println(res3);
+		System.out.println("OR");
+		boolean res4 = a>b || b>c;
+		System.out.println(res4);
+		boolean res5 = a<b || b<c;
+		System.out.println(res5);
+		boolean res6 = a<b || b>c;
+		System.out.println(res6);
+		System.out.println("NOT");
+		boolean res7 = b!=c;
+		System.out.println(res7);
+		boolean res8 = a!=c;
+		System.out.println(res8);
+		boolean res9 = c!=b;
+		System.out.println(res9);
+		
+	}
+
+}
