@@ -1,0 +1,53 @@
+public class Main {
+		public static void main(String[] args) {
+			char yuvi = 'p';
+			switch(yuvi)
+			{
+			case 'a':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'e':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'i':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'o':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'u':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'A':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'E':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'I':
+			{
+				System.out.println("its is vowel");
+			}break;
+			case 'O':
+			{
+				System.out.println("its is vowel");
+			}break;
+			
+			case 'U':
+			{
+				System.out.println("its is vowel");
+			}
+			default:
+			{
+				System.out.println("it is consonant");
+			}
+			}
+		}
+		}
