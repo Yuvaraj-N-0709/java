@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Yuvaraj {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int yuva1 = sc.nextInt();
+double yuva2 = sc.nextDouble();
+float yuva3 = sc.nextFloat();
+char ch = sc.next().charAt(2);
+long yuva5 = sc.nextLong();
+short yuva6 = sc.nextShort();
+String s1 =sc.nextLine();
+	System.out.println(yuva1);
+	System.out.println(yuva2);
+	System.out.println(yuva3);
+	System.out.println(ch);
+	System.out.println(yuva5);
+	System.out.println(yuva6);
+	System.out.print(s1);
+}
+}
