@@ -1,0 +1,20 @@
+public class Main {
+	public static void main(String[] args) {
+		int mark=89;
+		if (mark>80 && mark<=100) {
+			System.out.println("congrats you have a distinction");
+		}
+		else if (mark>=35 && mark<80)
+		{
+		System.out.println("congrats you have first class");
+		}
+		else if(mark<=0 && mark<=34)
+		{
+			System.out.println("oops you will be fail");
+	}
+		else
+		{
+			System.out.println("invalid mark");
+		}
+	}
+}
