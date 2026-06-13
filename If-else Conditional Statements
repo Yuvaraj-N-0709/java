@@ -1,0 +1,18 @@
+public class Yuva {
+public static void main(String[] args) {
+	String mail = "yuvaraj9360576602@gmail.com";
+	int password = 1234;
+	if(mail=="yuvaraj9360576602@gmail.com")
+	{
+		System.out.println("mail id verifies");
+	}
+	if(password==1234)
+	{
+	System.out.println("login unsucesshull");
+	}
+	else
+	{
+		System.out.println("login unsucessfull,kindly checkit");
+	}	
+}
+}
